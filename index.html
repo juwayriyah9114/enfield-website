@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Enfield Legacy – Pre-Owned Royal Enfield Specialists</title>
+  <meta name="description" content="India's most trusted pre-owned Royal Enfield dealership. Certified, inspected, and road-ready Bullets, Classics, Meteors, Himalayans and more."/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@300;400;500;600&family=Bebas+Neue&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <div class="logo">
+        <span class="logo-icon">⚙</span>
+        <div>
+          <span class="logo-title">ENFIELD LEGACY</span>
+          <span class="logo-sub">Pre-Owned Specialists</span>
+        </div>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#inventory">Inventory</a></li>
+        <li><a href="#why-us">Why Us</a></li>
+        <li><a href="#testimonials">Reviews</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a href="#contact" class="nav-cta">Book a Test Ride</a>
+      <button class="hamburger" id="hamburger" aria-label="Menu">&#9776;</button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#home">Home</a>
+      <a href="#inventory">Inventory</a>
+      <a href="#why-us">Why Us</a>
+      <a href="#testimonials">Reviews</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <div class="hero-badge">🏍 Royal Enfield Specialists Since 2008</div>
+      <h1 class="hero-title">
+        Own Your<br/>
+        <span class="gold">Legend</span>
+      </h1>
+      <p class="hero-desc">Every thumper has a story. We make sure your next chapter starts with a machine that's been inspected, certified, and road-proven.</p>
+      <div class="hero-actions">
+        <a href="#inventory" class="btn-primary" id="browse-inventory-btn">Browse Inventory</a>
+        <a href="#contact" class="btn-ghost">Get a Free Quote</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><span class="stat-num">500+</span><span class="stat-label">Bikes Sold</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num">100%</span><span class="stat-label">Inspected</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num">15+</span><span class="stat-label">Years Exp.</span></div>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- MARQUEE STRIP -->
+  <div class="marquee-strip">
+    <div class="marquee-track">
+      <span>BULLET 350</span><span class="dot">◆</span>
+      <span>CLASSIC 350</span><span class="dot">◆</span>
+      <span>METEOR 350</span><span class="dot">◆</span>
+      <span>HIMALAYAN</span><span class="dot">◆</span>
+      <span>INTERCEPTOR 650</span><span class="dot">◆</span>
+      <span>CONTINENTAL GT</span><span class="dot">◆</span>
+      <span>THUNDERBIRD 500</span><span class="dot">◆</span>
+      <span>SCRAM 411</span><span class="dot">◆</span>
+      <span>BULLET 350</span><span class="dot">◆</span>
+      <span>CLASSIC 350</span><span class="dot">◆</span>
+      <span>METEOR 350</span><span class="dot">◆</span>
+      <span>HIMALAYAN</span><span class="dot">◆</span>
+      <span>INTERCEPTOR 650</span><span class="dot">◆</span>
+      <span>CONTINENTAL GT</span><span class="dot">◆</span>
+      <span>THUNDERBIRD 500</span><span class="dot">◆</span>
+      <span>SCRAM 411</span><span class="dot">◆</span>
+    </div>
+  </div>
+
+  <!-- INVENTORY -->
+  <section id="inventory" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">AVAILABLE NOW</span>
+        <h2>Our <span class="gold">Inventory</span></h2>
+        <p>Hand-picked, fully inspected Royal Enfields ready for the road.</p>
+      </div>
+
+      <!-- FILTERS -->
+      <div class="filters" id="filters">
+        <button class="filter-btn active" data-filter="all" id="filter-all">All</button>
+        <button class="filter-btn" data-filter="classic" id="filter-classic">Classic</button>
+        <button class="filter-btn" data-filter="adventure" id="filter-adventure">Adventure</button>
+        <button class="filter-btn" data-filter="cruiser" id="filter-cruiser">Cruiser</button>
+        <button class="filter-btn" data-filter="twin" id="filter-twin">Twin</button>
+      </div>
+
+      <div class="bike-grid" id="bikeGrid">
+
+        <div class="bike-card" data-category="classic" id="bike-classic-350">
+          <div class="bike-card-img-wrap">
+            <img src="images/classic.png" alt="Royal Enfield Classic 350"/>
+            <div class="badge-condition">Excellent</div>
+            <div class="badge-year">2022</div>
+          </div>
+          <div class="bike-card-body">
+            <h3>Classic 350</h3>
+            <p class="bike-sub">Signals – Marsh Grey</p>
+            <div class="bike-specs">
+              <span>🛞 12,400 km</span>
+              <span>⛽ Petrol</span>
+              <span>🔧 Single Owner</span>
+            </div>
+            <div class="bike-footer">
+              <div class="price">₹1,45,000</div>
+              <a href="#contact" class="btn-sm" id="enquire-classic">Enquire</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="bike-card featured" data-category="classic" id="bike-meteor-350">
+          <div class="featured-tag">⭐ Featured</div>
+          <div class="bike-card-img-wrap">
+            <img src="images/meteor.png" alt="Royal Enfield Meteor 350"/>
+            <div class="badge-condition">Like New</div>
+            <div class="badge-year">2023</div>
+          </div>
+          <div class="bike-card-body">
+            <h3>Meteor 350</h3>
+            <p class="bike-sub">Fireball – Supernova Black</p>
+            <div class="bike-specs">
+              <span>🛞 6,200 km</span>
+              <span>⛽ Petrol</span>
+              <span>🔧 Single Owner</span>
+            </div>
+            <div class="bike-footer">
+              <div class="price">₹1,72,000</div>
+              <a href="#contact" class="btn-sm" id="enquire-meteor">Enquire</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="bike-card" data-category="adventure" id="bike-himalayan">
+          <div class="bike-card-img-wrap">
+            <img src="images/himalayan.png" alt="Royal Enfield Himalayan"/>
+            <div class="badge-condition">Good</div>
+            <div class="badge-year">2021</div>
+          </div>
+          <div class="bike-card-body">
+            <h3>Himalayan 411</h3>
+            <p class="bike-sub">Rock Red – BS6</p>
+            <div class="bike-specs">
+              <span>🛞 28,000 km</span>
+              <span>⛽ Petrol</span>
+              <span>🔧 2 Owners</span>
+            </div>
+            <div class="bike-footer">
+              <div class="price">₹1,55,000</div>
+              <a href="#contact" class="btn-sm" id="enquire-himalayan">Enquire</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="bike-card" data-category="cruiser" id="bike-thunderbird">
+          <div class="bike-card-img-wrap">
+            <img src="images/thunderbird.png" alt="Royal Enfield Thunderbird 500"/>
+            <div class="badge-condition">Good</div>
+            <div class="badge-year">2019</div>
+          </div>
+          <div class="bike-card-body">
+            <h3>Thunderbird 500</h3>
+            <p class="bike-sub">Stormrider Sand – ABS</p>
+            <div class="bike-specs">
+              <span>🛞 34,500 km</span>
+              <span>⛽ Petrol</span>
+              <span>🔧 Single Owner</span>
+            </div>
+            <div class="bike-footer">
+              <div class="price">₹1,35,000</div>
+              <a href="#contact" class="btn-sm" id="enquire-thunderbird">Enquire</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="bike-card featured" data-category="twin" id="bike-interceptor">
+          <div class="featured-tag">⭐ Featured</div>
+          <div class="bike-card-img-wrap">
+            <img src="images/interceptor.png" alt="Royal Enfield Interceptor 650"/>
+            <div class="badge-condition">Like New</div>
+            <div class="badge-year">2023</div>
+          </div>
+          <div class="bike-card-body">
+            <h3>Interceptor 650</h3>
+            <p class="bike-sub">Mark 2 – Ravishing Red</p>
+            <div class="bike-specs">
+              <span>🛞 9,100 km</span>
+              <span>⛽ Petrol</span>
+              <span>🔧 Single Owner</span>
+            </div>
+            <div class="bike-footer">
+              <div class="price">₹2,80,000</div>
+              <a href="#contact" class="btn-sm" id="enquire-interceptor">Enquire</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="bike-card" data-category="classic" id="bike-bullet-350">
+          <div class="bike-card-img-wrap">
+            <img src="images/hero.png" alt="Royal Enfield Bullet 350"/>
+            <div class="badge-condition">Excellent</div>
+            <div class="badge-year">2022</div>
+          </div>
+          <div class="bike-card-body">
+            <h3>Bullet 350</h3>
+            <p class="bike-sub">Military Black – ABS</p>
+            <div class="bike-specs">
+              <span>🛞 15,800 km</span>
+              <span>⛽ Petrol</span>
+              <span>🔧 Single Owner</span>
+            </div>
+            <div class="bike-footer">
+              <div class="price">₹1,62,000</div>
+              <a href="#contact" class="btn-sm" id="enquire-bullet">Enquire</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY US -->
+  <section id="why-us" class="section why-us-section">
+    <div class="container">
+      <div class="section-header light">
+        <span class="section-tag">OUR PROMISE</span>
+        <h2>Why Choose <span class="gold">Enfield Legacy</span></h2>
+        <p>We're not just sellers – we're Royal Enfield enthusiasts who care about every machine we put on the road.</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card" id="feature-inspection">
+          <div class="feature-icon">🔍</div>
+          <h3>75-Point Inspection</h3>
+          <p>Every bike undergoes a rigorous mechanical check covering engine, electrics, brakes, suspension, and frame.</p>
+        </div>
+        <div class="feature-card" id="feature-history">
+          <div class="feature-icon">📋</div>
+          <h3>Full Service History</h3>
+          <p>We verify RC documents, insurance, and service records so you know exactly what you're buying.</p>
+        </div>
+        <div class="feature-card" id="feature-warranty">
+          <div class="feature-icon">🛡</div>
+          <h3>3-Month Warranty</h3>
+          <p>Every bike comes with a 3-month engine and gearbox warranty for complete peace of mind.</p>
+        </div>
+        <div class="feature-card" id="feature-testride">
+          <div class="feature-icon">🏍</div>
+          <h3>Free Test Ride</h3>
+          <p>Feel the thump before you pay a rupee. Book your test ride at our showroom or at your doorstep.</p>
+        </div>
+        <div class="feature-card" id="feature-finance">
+          <div class="feature-icon">💰</div>
+          <h3>Easy Finance</h3>
+          <p>EMI options starting at ₹2,999/month with zero hidden charges through our banking partners.</p>
+        </div>
+        <div class="feature-card" id="feature-exchange">
+          <div class="feature-icon">🔄</div>
+          <h3>Exchange Program</h3>
+          <p>Trade in your old Royal Enfield and get the best valuation on the spot, applied instantly.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section id="testimonials" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">RIDER REVIEWS</span>
+        <h2>What Our <span class="gold">Riders Say</span></h2>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card" id="review-1">
+          <div class="stars">★★★★★</div>
+          <p>"Bought a Meteor 350 from here last month. The bike was in pristine condition. They even helped me with the insurance transfer. 10/10 experience!"</p>
+          <div class="reviewer">
+            <div class="reviewer-avatar">AR</div>
+            <div>
+              <strong>Arjun Rao</strong>
+              <span>Bengaluru</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card" id="review-2">
+          <div class="stars">★★★★★</div>
+          <p>"Finally a place that knows Royal Enfield inside out. The team showed me full service history and even let me take the Himalayan on a long test ride. Highly recommend."</p>
+          <div class="reviewer">
+            <div class="reviewer-avatar">PM</div>
+            <div>
+              <strong>Priya Menon</strong>
+              <span>Hyderabad</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card" id="review-3">
+          <div class="stars">★★★★★</div>
+          <p>"Got an amazing deal on an Interceptor 650. No pressure tactics, honest pricing, and the 3-month warranty gave me confidence. Will definitely come back for my next upgrade."</p>
+          <div class="reviewer">
+            <div class="reviewer-avatar">SK</div>
+            <div>
+              <strong>Sameer Khan</strong>
+              <span>Mumbai</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section contact-section">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info">
+          <span class="section-tag">GET IN TOUCH</span>
+          <h2>Find Your <span class="gold">Perfect Ride</span></h2>
+          <p>Tell us what you're looking for and we'll find the right Royal Enfield for you.</p>
+          <div class="contact-details">
+            <div class="contact-item">
+              <span class="contact-icon">📍</span>
+              <div>
+                <strong>Showroom</strong>
+                <span>42, RE Motors Road, Indiranagar, Bengaluru – 560038</span>
+              </div>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon">📞</span>
+              <div>
+                <strong>Phone</strong>
+                <span>+91 98765 43210</span>
+              </div>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon">🕐</span>
+              <div>
+                <strong>Hours</strong>
+                <span>Mon–Sat: 9am – 7pm | Sun: 10am – 5pm</span>
+              </div>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon">✉</span>
+              <div>
+                <strong>Email</strong>
+                <span>hello@enfieldlegacy.in</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form-wrap">
+          <form class="contact-form" id="contact-form" onsubmit="handleSubmit(event)">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" placeholder="Arjun Rao" required/>
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" placeholder="+91 98765 43210" required/>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="interest">Bike of Interest</label>
+              <select id="interest">
+                <option value="">Select a model</option>
+                <option>Bullet 350</option>
+                <option>Classic 350</option>
+                <option>Meteor 350</option>
+                <option>Himalayan 411</option>
+                <option>Interceptor 650</option>
+                <option>Continental GT 650</option>
+                <option>Thunderbird 500</option>
+                <option>Other / Not sure</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Message (optional)</label>
+              <textarea id="message" rows="4" placeholder="Tell us your budget, preferred colour, or any questions..."></textarea>
+            </div>
+            <button type="submit" class="btn-primary full-width" id="submit-btn">Send Enquiry 🏍</button>
+            <div id="form-success" class="form-success" style="display:none;">✅ Thanks! We'll call you within 2 hours.</div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="logo-icon">⚙</span>
+        <div>
+          <span class="logo-title">ENFIELD LEGACY</span>
+          <span class="logo-sub">Pre-Owned Specialists</span>
+        </div>
+      </div>
+      <p class="footer-copy">© 2024 Enfield Legacy. All rights reserved. | Not affiliated with Royal Enfield / Eicher Motors.</p>
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#inventory">Inventory</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
